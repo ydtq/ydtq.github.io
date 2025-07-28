@@ -11,6 +11,7 @@ author: ydtq
 language: zh-CN
 timezone: ''
 
+all_minifier: true
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://ydtq.github.io
@@ -103,4 +104,4 @@ theme: redefine
 deploy:
   type: 'git'
   repo: 'https://github.com/ydtq/ydtq.github.io.git'
-  branch: gh-pages
+  branch: gh-pages  npm install rimraf@latest
