@@ -52,7 +52,7 @@ global:
   fonts:
     # Chinese fonts
     chinese: 
-      enable: false # Whether to enable custom chinese fonts
+      enable: true # Whether to enable custom chinese fonts
       family:  # Font family
       url:  # Font URL to CSS file
     # English fonts
@@ -137,7 +137,7 @@ home_banner:
   title: Theme Redefine
   # Home banner subtitle
   subtitle:
-    text: [] # subtitle text, array
+    text: [233333] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
