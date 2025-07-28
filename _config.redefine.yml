@@ -137,7 +137,7 @@ home_banner:
   title: ydtq的小家
   # Home banner subtitle
   subtitle:
-    text: ['233333333'] # subtitle text, array
+    text: [] # subtitle text, array
     hitokoto:  # 一言配置
       enable: true # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -439,13 +439,13 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
-        cover: # audio cover url
+      - name: 萤萤微光 # audio name
+        artist: 泠鸢yousa # audio artist
+        url: /music/泠鸢yousa - 萤萤微光.flac # audio url
+        cover: http://p1.music.126.net/OUdxMtOD9h50GFqv8f-G0A==/109951169717957358.jpg?param=177y177 # audio cover url
         lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
@@ -474,7 +474,7 @@ page_templates:
 # Docs: https://redefine-docs.ohevan.com/cdn
 cdn:
   # Whether to enable CDN
-  enable: false
+  enable: true
   # CDN Provider
   provider: npmmirror # npmmirror, zstatic, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL
