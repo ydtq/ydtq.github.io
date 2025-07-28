@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: /images/favicon.ico
   # Site logo
   logo: 
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /images/favicon.ico
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -208,6 +208,9 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
+    gallery: #取名随意
+      icon: fa-solid fa-image #图标
+      path: /masonry/ 
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
