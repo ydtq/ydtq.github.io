@@ -17,7 +17,7 @@ info:
   # Author name
   author: ydtq
   # Site URL
-  url: https://ydtq.github.io/
+  url: https://ydtq.github.io
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -134,12 +134,12 @@ home_banner:
     light: /images/wallhaven-wqery6-light.webp # light mode
     dark: /images/wallhaven-wqery6-dark.webp # dark mode
   # Home banner title
-  title: Theme Redefine
+  title: ydtq的小家
   # Home banner subtitle
   subtitle:
     text: ['233333333'] # subtitle text, array
     hitokoto:  # 一言配置
-      enable: false # Whether to enable hitokoto
+      enable: true # Whether to enable hitokoto
       show_author: false # Whether to show author
       api: https://v1.hitokoto.cn # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
     typing_speed: 100 # Typing speed (ms)
