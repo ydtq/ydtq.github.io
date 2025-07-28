@@ -17,7 +17,7 @@ info:
   # Author name
   author: ydtq
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://ydtq.github.io/
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -75,7 +75,7 @@ global:
     scale: false # scale effect
   # Scroll progress
   scroll_progress:
-    bar: false # progress bar
+    bar: true # progress bar
     percentage: true # percentage
   # Website counter
   website_counter:
@@ -88,7 +88,7 @@ global:
   single_page: true
   # Whether to enable Preloader.
   preloader:
-    enable: false
+    enable: true
     custom_message: # Custom message. If empty, the site title will be displayed
   # Side tools settings
   side_tools:
@@ -137,7 +137,7 @@ home_banner:
   title: Theme Redefine
   # Home banner subtitle
   subtitle:
-    text: [233333] # subtitle text, array
+    text: ['233333333'] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -171,16 +171,16 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links style
     style: default # default, reverse, center
     # Social links
     links:
-      github:  # your GitHub URL
-      instagram: # your Instagram URL
+      github: https://github.com/ydtq # your GitHub URL
+      instagram: https://www.instagram.com/hiydtq # your Instagram URL
       zhihu:  # your ZhiHu URL
-      twitter:  # your twitter URL
-      email:  # your email
+      twitter: https://x.com/yuditianqi # your twitter URL
+      email: hiydtq@qq.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
