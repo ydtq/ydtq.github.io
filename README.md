@@ -1,2 +1,2 @@
-#ydtq's Blog
+ydtq's Blog
 welcome to here.
