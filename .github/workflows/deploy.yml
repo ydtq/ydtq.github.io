@@ -15,7 +15,7 @@ jobs:
         with:
           submodules: false  # 禁用子模块检查
 
-      - name: Setup Node.js
+      - name: Setup Node.js 22
         uses: actions/setup-node@v2
         with:
           node-version: '22'
