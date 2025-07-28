@@ -137,7 +137,7 @@ home_banner:
   title: ydtq的小家
   # Home banner subtitle
   subtitle:
-    text: [] # subtitle text, array
+    text: [''] # subtitle text, array
     hitokoto:  # 一言配置
       enable: true # Whether to enable hitokoto
       show_author: false # Whether to show author
