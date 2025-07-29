@@ -372,7 +372,7 @@ comment:
       clientSecret: dbe145911ae38e37647b8bd8c07da9829cba0ddf # GitHub Application Client Secret
       repo: blog-comments # GitHub repository
       owner: ydtq # GitHub repository owner
-      proxy:  # GitHub repository proxy
+      proxy: https://strong-caramel-969805.netlify.app/github_access_token  # GitHub repository proxy
     # Twikoo comment system. See https://twikoo.js.org/
     twikoo:
       version: 1.6.10 # Twikoo version, do not modify if you dont know what it is
