@@ -360,7 +360,7 @@ comment:
   config:
     # Waline comment system. See https://waline.js.org/
     waline:
-      serverUrl: https://comments-q1uxa2h9c-ydtqs-projects.vercel.app/ # Waline server URL. e.g. https://example.example.com
+      serverUrl: https://comments-an5sluihu-ydtqs-projects.vercel.app # Waline server URL. e.g. https://example.example.com
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
       emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
