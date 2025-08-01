@@ -4,3 +4,9 @@
 - image: /images/bg.jpg
   title: background
   description: jpg file
+- image: /images/gmdl.png
+  title: 古明地恋
+  description: png file
+- image: /images/post.jpg
+  title: POST
+  description: jpg file
