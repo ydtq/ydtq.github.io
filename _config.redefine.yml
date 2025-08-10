@@ -419,14 +419,14 @@ footer:
 # Docs: https://redefine-docs.ohevan.com/inject
 inject:
   # Whether to enable inject
-  enable: false
+  enable: true
   # Inject custom head html code
   head: 
     -
     -
   # Inject custom footer html code
   footer:
-    -
+    - <a href="https://icp.gov.moe/?keyword=20257600" target="_blank">萌ICP备20257600号</a>
     -
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
