@@ -8,6 +8,7 @@ thumbnail: "2025/07/28/test/bg.jpg"
 ## 图片测试
 
 {% asset_img girl.jpg This is an example image %}
+By 彩莉わらび from pixiv
 
 ## 视频测试
 

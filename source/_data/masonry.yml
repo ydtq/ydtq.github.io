@@ -1,12 +1,12 @@
 - image: https://images.unsplash.com/photo-1753549724481-d146eaa3f0f0?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  title: 风景
-  description: beauty.
+  title: test
+  description: From unsplash
 - image: /images/bg.jpg
-  title: background
-  description: jpg file
+  title: background image
+  description: By rokusai from pixiv
 - image: /images/gmdl.png
   title: 古明地恋
-  description: png file
+  description: By 鵙野 from pixiv
 - image: /images/post.jpg
-  title: POST
-  description: jpg file
+  title: POSTER
+  description: By 西ノ田 from pixiv
