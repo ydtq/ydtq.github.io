@@ -1,7 +1,8 @@
 ---
 title: test
 date: 2025-08-11 02:35:00
-tags: #demo
+tags:   
+        - "Demo"
 thumbnail: "2025/08/11/test/bg.jpg"
 ---
 
