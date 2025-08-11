@@ -2,7 +2,7 @@
 title: test
 date: 2025-08-11 02:35:00
 tags: #demo
-thumbnail: "2025/07/28/test/bg.jpg"
+thumbnail: "2025/08/11/test/bg.jpg"
 ---
 
 ## 图片测试
