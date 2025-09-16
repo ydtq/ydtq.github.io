@@ -6,7 +6,6 @@ tags:
 categories:
   - 技术分享
 description: 解决谷歌云试用时遇到的OR-ACH-01错误，重新获得300美元试用额度的完整解决方案
-date: 2025-09-12 00:00:00
 thumbnail: "2025/09/12/GCP/1.png"
 ---
 
