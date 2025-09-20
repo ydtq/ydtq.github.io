@@ -1,11 +1,11 @@
 ---
 title: 谷歌云支付问题解决方案 - OR-ACH-01错误处理
+date: 2025-09-17 18:00:01
 tags:
   - 谷歌云
   - 技术教程
 categories:
   - 技术分享
-description: 解决谷歌云试用时遇到的OR-ACH-01错误，重新获得300美元试用额度的完整解决方案
 thumbnail: "2025/09/17/GCP/1.png"
 ---
 
