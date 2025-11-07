@@ -17,7 +17,7 @@ info:
   # Author name
   author: ydtq
   # Site URL
-  url: https://ydtq.github.io
+  url: https://www.ydtq.me
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -88,7 +88,7 @@ global:
   single_page: true
   # Whether to enable Preloader.
   preloader:
-    enable: true
+    enable: false
     custom_message: # Custom message. If empty, the site title will be displayed
   # Side tools settings
   side_tools:
@@ -100,7 +100,7 @@ global:
   open_graph:
     enable: true
     image: /images/redefine-og.webp  # default og:image
-    description: Hexo Theme Redefine, Redefine Your Hexo Journey.
+    description: ydtq's home.
   # Google Analytics
   google_analytics:
     enable: false # Whether to enable Google Analytics
@@ -180,7 +180,7 @@ home_banner:
       instagram: https://www.instagram.com/hiydtq # your Instagram URL
       zhihu:  # your ZhiHu URL
       twitter: https://x.com/yuditianqi # your twitter URL
-      email: ydtq@ydtq.me # your email
+      email: a@ydtq.me # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
