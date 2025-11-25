@@ -427,7 +427,7 @@ inject:
   # Inject custom footer html code
   footer:
     - <a href="https://icp.gov.moe/?keyword=20257600" target="_blank">萌ICP备20257600号</a>
-    - <br/> <img src='/images/备案图标.png' style='display:inline-block;width:15px;height:15px;'> <a href="https://beian.mps.gov.cn/#/query/webSearch?code=33011302000874" rel="noreferrer" target="_blank">浙公网安备33011302000874号</a>
+    - <br/> <img src='/images/备案图标.png' style='display:inline-block;width:20px;height:20px;'> <a href="https://beian.mps.gov.cn/#/query/webSearch?code=33011302000874" rel="noreferrer" target="_blank">浙公网安备33011302000874号</a>
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
