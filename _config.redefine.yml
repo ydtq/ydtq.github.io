@@ -52,17 +52,17 @@ global:
   fonts:
     # Chinese fonts
     chinese: 
-      enable: true # Whether to enable custom chinese fonts
+      enable: false # Whether to enable custom chinese fonts
       family:  # Font family
       url:  # Font URL to CSS file
     # English fonts
     english: 
-      enable: true # Whether to enable custom english fonts
+      enable: false # Whether to enable custom english fonts
       family:  # Font family
       url:  # Font URL to CSS file
     # Custom title fonts (navbar, sidebar)
     title:
-      enable: true # Whether to enable custom title fonts
+      enable: false # Whether to enable custom title fonts
       family:  # Font family
       url:  # Font URL to CSS file
   # Content max width
@@ -211,6 +211,9 @@ navbar:
     画廊: #取名随意
       icon: fa-solid fa-image #图标
       path: /masonry/ 
+    Tags: #取名随意
+        icon: fa-solid fa-tags #图标
+        path: /tags/
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
@@ -331,7 +334,7 @@ articles:
   # Whether to enable lazyload for images
   lazyload: true
   # Pangu.js (automatically add space between Chinese and English). See https://github.com/vinta/pangu.js
-  pangu_js: true
+  pangu_js: false
   # Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.
   recommendation:
     # Whether to enable article recommendation
@@ -409,7 +412,7 @@ footer:
   customize:
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
-    enable: true # Whether to enable
+    enable: false # Whether to enable
     number: 浙ICP备2025207926号-1 # ICP record number
     url: https://beian.miit.gov.cn/#/Integrated/index # ICP record url
 # FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -426,7 +429,8 @@ inject:
     -
   # Inject custom footer html code
   footer:
-    - <a href="https://icp.gov.moe/?keyword=20257600" target="_blank">萌ICP备20257600号</a>
+    - <br/> <a href='https://beian.miit.gov.cn/#/Integrated/index'/>浙ICP备2025207926号-1</a>
+    - <br/> <a href="https://icp.gov.moe/?keyword=20257600" target="_blank">萌ICP备20257600号</a>
     - <br/> <a href="https://beian.mps.gov.cn/#/query/webSearch?code=33011302000874" rel="noreferrer" target="_blank">浙公网安备33011302000874号</a>
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -466,7 +470,7 @@ page_templates:
   # Friend Links page column number
   friends_column: 2
   # Tags page style
-  tags_style: cloud # blur, cloud
+  tags_style: blur # blur, cloud
 # PAGE TEMPLATES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
