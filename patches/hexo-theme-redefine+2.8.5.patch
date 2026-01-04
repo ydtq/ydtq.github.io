@@ -1,0 +1,43 @@
+diff --git a/node_modules/hexo-theme-redefine/layout/components/comments/gitalk.ejs b/node_modules/hexo-theme-redefine/layout/components/comments/gitalk.ejs
+index d9b1711..e461b2d 100644
+--- a/node_modules/hexo-theme-redefine/layout/components/comments/gitalk.ejs
++++ b/node_modules/hexo-theme-redefine/layout/components/comments/gitalk.ejs
+@@ -36,10 +36,14 @@
+         }
+ 
+         if ('<%= theme.global.single_page %>') {
+-            const loadGitalkTimeout = setTimeout(() => {
+-                loadGitalk();
+-                clearTimeout(loadGitalkTimeout);
+-            }, 1000);
++            const checkGitalk = () => {
++                if (typeof Gitalk === 'undefined') {
++                    setTimeout(checkGitalk, 100);
++                } else {
++                    loadGitalk();
++                }
++            };
++            checkGitalk();
+         } else {
+             window.addEventListener('DOMContentLoaded', loadGitalk);
+         }
+diff --git a/node_modules/hexo-theme-redefine/source/js/tools/runtime.js b/node_modules/hexo-theme-redefine/source/js/tools/runtime.js
+index 782ae66..ccc3275 100644
+--- a/node_modules/hexo-theme-redefine/source/js/tools/runtime.js
++++ b/node_modules/hexo-theme-redefine/source/js/tools/runtime.js
+@@ -1,5 +1,14 @@
+ const footerRuntime = () => {
+-  const startTime = theme.footerStart;
++  let startTime;
++  if (typeof window.theme !== 'undefined' && window.theme.footerStart) {
++    startTime = window.theme.footerStart;
++  } else if (typeof theme !== 'undefined' && theme.footerStart) {
++    startTime = theme.footerStart;
++  } else {
++    window.setTimeout(footerRuntime, 500);
++    return;
++  }
++  
+   window.setTimeout(footerRuntime, 1000); // passing function reference instead of string
+ 
+   const X = new Date(startTime);
