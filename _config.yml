@@ -104,4 +104,4 @@ theme: redefine
 deploy:
   type: "git"
   repo: "https://github.com/ydtq/ydtq.github.io.git"
-  branch: gh-pages  npm install rimraf@latest
+  branch: gh-pages

@@ -1,8 +1,26 @@
 diff --git a/node_modules/hexo-theme-redefine/layout/components/comments/gitalk.ejs b/node_modules/hexo-theme-redefine/layout/components/comments/gitalk.ejs
-index d9b1711..e461b2d 100644
+index d9b1711..5a8f31d 100644
 --- a/node_modules/hexo-theme-redefine/layout/components/comments/gitalk.ejs
 +++ b/node_modules/hexo-theme-redefine/layout/components/comments/gitalk.ejs
-@@ -36,10 +36,14 @@
+@@ -6,9 +6,9 @@
+         && theme.comment.config.gitalk.repo
+ ) { %>
+     <div id="gitalk-container"></div>
+-    <script <%= theme.global.single_page === true && 'data-swup-reload-script' %>
++    <script data-cfasync="false" <%= theme.global.single_page === true && 'data-swup-reload-script' %>
+             src="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js"></script>
+-    <script <%= theme.global.single_page === true && 'data-swup-reload-script' %>>
++    <script data-cfasync="false" <%= theme.global.single_page === true && 'data-swup-reload-script' %>>
+ 
+         function loadGitalk() {
+             let __gitalk__pathname = decodeURI(location.pathname);
+@@ -31,15 +31,20 @@
+                 }).render('gitalk-container');
+ 
+             } catch (e) {
++                console.error("Gitalk init error:", e);
+                 window.Gitalk = null;
+             }
          }
  
          if ('<%= theme.global.single_page %>') {

@@ -10,7 +10,7 @@
     "postinstall": "patch-package"
   },
   "hexo": {
-    "version": "7.3.0"
+    "version": "8.1.1"
   },
   "dependencies": {
     "hexo": "^8.1.1",
