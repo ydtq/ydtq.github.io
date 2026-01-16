@@ -96,7 +96,7 @@ global:
   open_graph:
     enable: true
     image: /images/redefine-og.webp # default og:image
-    description: ydtq's home.
+    description: ydtq's home with Blogs and Beautiful pictures.
   # Google Analytics
   google_analytics:
     enable: false # Whether to enable Google Analytics
