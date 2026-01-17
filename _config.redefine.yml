@@ -439,7 +439,7 @@ plugins:
         artist: 泠鸢yousa # audio artist
         url: /music/泠鸢yousa - 萤萤微光.flac # audio url
         cover: https://p1.music.126.net/OUdxMtOD9h50GFqv8f-G0A==/109951169717957358.jpg?param=177y177 # audio cover url
-        lrc: # audio cover lrc
+        lrc: /music/萤萤微光 - 泠鸢yousa.lrc
   #      - name: # audio name
   #        artist: # audio artist
   #        url: # audio url
