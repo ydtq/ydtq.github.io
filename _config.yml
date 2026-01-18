@@ -110,6 +110,9 @@ theme: redefine
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: "git"
-  repo: "https://github.com/ydtq/ydtq.github.io.git"
-  branch: gh-pages
+  - type: git
+    repo: https://github.com/ydtq/ydtq.github.io.git
+    branch: main
+  - type: git
+    repo: aliyun:/var/repo/blog.git
+    branch: master
