@@ -112,7 +112,7 @@ theme: redefine
 deploy:
   - type: git
     repo: https://github.com/ydtq/ydtq.github.io.git
-    branch: main
+    branch: gh-pages
   - type: git
     repo: aliyun:/var/repo/blog.git
     branch: master
