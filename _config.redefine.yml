@@ -96,7 +96,7 @@ global:
   open_graph:
     enable: true
     image: /images/bg.jpg # default og:image
-    description: ydtq's home with Blogs and Beautiful pictures.
+    description: ydtq's home. Share Blogs and Beautiful pictures.
   # Google Analytics
   google_analytics:
     enable: false # Whether to enable Google Analytics
