@@ -16,7 +16,7 @@ info:
   # Author name
   author: ydtq
   # Site URL
-  url: https://www.ydtq.me
+  url: https://blog.ydtq.me
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -95,7 +95,7 @@ global:
   # Whether to enable open graph
   open_graph:
     enable: true
-    image: /images/redefine-og.webp # default og:image
+    image: /images/bg.jpg # default og:image
     description: ydtq's home with Blogs and Beautiful pictures.
   # Google Analytics
   google_analytics:
