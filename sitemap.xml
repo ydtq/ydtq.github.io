@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.ydtq.me/categories/index.html</loc>
+    <loc>https://blog.ydtq.me/categories/index.html</loc>
     
     <lastmod>2026-01-17</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://www.ydtq.me/tags/index.html</loc>
+    <loc>https://blog.ydtq.me/tags/index.html</loc>
     
     <lastmod>2025-12-19</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://www.ydtq.me/2025/08/11/test/</loc>
+    <loc>https://blog.ydtq.me/2025/08/11/test/</loc>
     
     <lastmod>2025-09-20</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.ydtq.me/masonry/index.html</loc>
+    <loc>https://blog.ydtq.me/masonry/index.html</loc>
     
     <lastmod>2025-08-11</lastmod>
     
@@ -39,16 +39,16 @@
   
 
   <url>
-    <loc>https://www.ydtq.me/</loc>
-    <lastmod>2026-01-18</lastmod>
+    <loc>https://blog.ydtq.me/</loc>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://www.ydtq.me/tags/Demo/</loc>
-    <lastmod>2026-01-18</lastmod>
+    <loc>https://blog.ydtq.me/tags/Demo/</loc>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
