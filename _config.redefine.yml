@@ -435,11 +435,11 @@ plugins:
     enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: 萤萤微光 # audio name
-        artist: 泠鸢yousa # audio artist
-        url: /music/泠鸢yousa - 萤萤微光.flac # audio url
-        cover: https://p1.music.126.net/OUdxMtOD9h50GFqv8f-G0A==/109951169717957358.jpg?param=177y177 # audio cover url
-        lrc: /music/萤萤微光 - 泠鸢yousa.lrc
+      - name: 交织Together # audio name
+        artist: DMYoung,Hanser,泠鸢yousa # audio artist
+        url: /music/DMYoung,Hanser,泠鸢yousa - 「交织together」.flac # audio url
+        cover: https://p2.music.126.net/JBo0QEBpHlzUNpTd5P4zuw==/109951162861954189.jpg?param=177y177 # audio cover url
+        lrc: /music/DMYoung,Hanser,泠鸢yousa - 「交织together」.lrc
   #      - name: # audio name
   #        artist: # audio artist
   #        url: # audio url
