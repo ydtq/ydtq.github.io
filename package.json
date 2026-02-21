@@ -28,7 +28,7 @@
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-redefine": "^2.9.0",
     "hexo-wordcount": "^6.0.1",
-    "rimraf": "^6.1.2",
+    "rimraf": "^6.1.3",
     "uuid": "^13.0.0"
   },
   "devDependencies": {
