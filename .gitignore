@@ -6,3 +6,4 @@ public/
 .deploy*/
 _multiconfig.yml
 submit_indexnow.js
+db.json
