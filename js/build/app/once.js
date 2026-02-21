@@ -1,0 +1,1 @@
+let t=new Set,normalizeKey=e=>String(e).trim().replace(/[^a-zA-Z0-9]/g,"_"),onceGlobal=(e,n)=>{"function"!=typeof n||(e=normalizeKey(e),t.has(e))||(t.add(e),n())},oncePerElement=(e,t,n)=>{e&&"function"==typeof n&&(t="redefine"+normalizeKey(t),e.dataset[t]||(e.dataset[t]="true",n(e)))};export{onceGlobal,oncePerElement};
