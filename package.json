@@ -29,7 +29,7 @@
     "hexo-theme-redefine": "^2.9.0",
     "hexo-wordcount": "^6.0.1",
     "rimraf": "^6.1.3",
-    "uuid": "^13.0.0"
+    "uuid": "^14.0.0"
   },
   "devDependencies": {
     "patch-package": "^8.0.1"
