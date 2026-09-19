@@ -1,0 +1,1 @@
+let o=!1,handleClick=o=>{o.target.closest(".tool-scroll-to-top")?window.scrollTo({top:0,behavior:"smooth"}):o.target.closest(".tool-scroll-to-bottom")&&(o=document.body.scrollHeight,window.scrollTo({top:o,behavior:"smooth"}))};export default({signal:t}={})=>{o||(o=!0,t?document.addEventListener("click",handleClick,{signal:t}):document.addEventListener("click",handleClick))};
